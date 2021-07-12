@@ -32,8 +32,8 @@
                 <div class="row text-center text-lg-left photos">
                 {{ range . }}
                 <div class="col-lg-3 col-md-4 col-6 item">
-                    <a href="/image/{{ . }}" data-lightbox="photos">
-                          <img class="img-fluid img-thumbnail" src="/image/{{ . }}" alt="">
+                    <a href="{{ . }}" data-lightbox="photos">
+                          <img class="img-fluid img-thumbnail" src="{{ . }}" alt="">
                         </a>
                   </div>
                 {{ end }}<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
@@ -43,7 +43,8 @@
                       'wrapAround': true
                     })
                 </script></div>{{ end }}
-
+                <br>
+                <br>
                 <div style="text-align: justify;">
                     {{.Content}}
                 </div>
