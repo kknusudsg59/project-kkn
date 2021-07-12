@@ -14,5 +14,8 @@ fields:
 - type: datetime
   name: date
   label: date
+- type: image_gallery
+  name: img
+  label: img
 pages:
-- content/destinasi/test-post-destinasi-forestry-2.md
+- content/destinasi/test-post-destinasi-forestry.md
