@@ -19,37 +19,39 @@
                             <button type="button" data-bs-target="#carouselExamplePertama" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
+                        {{ with .Site.GetPage "/galeri1.md" }}
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="with-caption1 image-link"
-                                    title="The caption">
-                                    <img src="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="d-block w-100"
+                                <a href="{{.Params.slide1}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide1_desc}}">
+                                    <img src="{{.Params.slide1}}" class="d-block w-100"
                                         alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5>{{.Params.slide1_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
-                                    class="with-caption1 image-link" title="The Caption2">
-                                    <img src="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
+                                <a href="{{.Params.slide2}}"
+                                    class="with-caption1 image-link" title="{{.Params.slide2_desc}}">
+                                    <img src="{{.Params.slide2}}"
                                         class="d-block w-100 h-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
+                                    <h5>{{.Params.slide2_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="with-caption1 image-link"
-                                    title="The Caption3">
-                                    <img src="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="d-block w-100" alt="...">
+                                <a href="{{.Params.slide3}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide3_desc}}">
+                                    <img src="{{.Params.slide3}}" class="d-block w-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>{{.Params.slide3_desc}}</h5>
                                 </div>
                             </div>
                         </div>
+                        {{ end }}
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExamplePertama"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,37 +76,39 @@
                             <button type="button" data-bs-target="#carouselExampleKedua" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
+                        {{ with .Site.GetPage "/galeri2.md" }}
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="with-caption2 image-link"
-                                    title="The caption">
-                                    <img src="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="d-block w-100"
+                                <a href="{{.Params.slide1}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide1_desc}}">
+                                    <img src="{{.Params.slide1}}" class="d-block w-100"
                                         alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5>{{.Params.slide1_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
-                                    class="with-caption2 image-link" title="The Caption2">
-                                    <img src="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
+                                <a href="{{.Params.slide2}}"
+                                    class="with-caption1 image-link" title="{{.Params.slide2_desc}}">
+                                    <img src="{{.Params.slide2}}"
                                         class="d-block w-100 h-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
+                                    <h5>{{.Params.slide2_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="with-caption2 image-link"
-                                    title="The Caption3">
-                                    <img src="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="d-block w-100" alt="...">
+                                <a href="{{.Params.slide3}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide3_desc}}">
+                                    <img src="{{.Params.slide3}}" class="d-block w-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>{{.Params.slide3_desc}}</h5>
                                 </div>
                             </div>
                         </div>
+                        {{ end }}
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleKedua"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -129,37 +133,39 @@
                             <button type="button" data-bs-target="#carouselExampleKetiga" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
                         </div>
+                        {{ with .Site.GetPage "/galeri3.md" }}
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <a href="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="with-caption3 image-link"
-                                    title="The caption">
-                                    <img src="img/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg" class="d-block w-100"
+                                <a href="{{.Params.slide1}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide1_desc}}">
+                                    <img src="{{.Params.slide1}}" class="d-block w-100"
                                         alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5>{{.Params.slide1_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
-                                    class="with-caption3 image-link" title="The Caption2">
-                                    <img src="img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg"
+                                <a href="{{.Params.slide2}}"
+                                    class="with-caption1 image-link" title="{{.Params.slide2_desc}}">
+                                    <img src="{{.Params.slide2}}"
                                         class="d-block w-100 h-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
+                                    <h5>{{.Params.slide2_desc}}</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <a href="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="with-caption3 image-link"
-                                    title="The Caption3">
-                                    <img src="img/patrick-MGTHD7BJRI4-unsplash.jpg" class="d-block w-100" alt="...">
+                                <a href="{{.Params.slide3}}" class="with-caption1 image-link"
+                                    title="{{.Params.slide3_desc}}">
+                                    <img src="{{.Params.slide3}}" class="d-block w-100" alt="...">
                                 </a>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5>{{.Params.slide3_desc}}</h5>
                                 </div>
                             </div>
                         </div>
+                        {{ end }}
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleKetiga"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
