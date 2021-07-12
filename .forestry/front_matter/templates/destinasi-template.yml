@@ -14,5 +14,3 @@ fields:
 - type: datetime
   name: date
   label: date
-pages:
-- content/destinasi/test-post-destinasi-forestry-2.md
