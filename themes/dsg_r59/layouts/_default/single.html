@@ -18,7 +18,7 @@
 
                 {{ with .Params.img }}
                 {{ $images := . }}
-                    {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
+                    {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/uploads/" (index $images 0)) }}
                 {{ $img := $imageResource }}
                 <img src="{{ $img.RelPermalink }}" class="img-fluid" />
                 <br>
