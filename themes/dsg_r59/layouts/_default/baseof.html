@@ -33,9 +33,10 @@
     {{ range .Site.Params.typed_js -}}
     <script src="{{ . | absURL }}"></script>
     {{- end}}
+    {{ with .Site.GetPage "/banner.md" }}
     <script>
         var typed1 = new Typed('#typed-welcome', {
-            strings: ["{{.Site.Params.welcome_text}}"], // Ini Pesan Selamat Datang
+            strings: ["{{.Params.welcome}}"], // Ini Pesan Selamat Datang
             typeSpeed: 50,
             backSpeed: 20,
             smartBackspace: true,
@@ -44,7 +45,7 @@
         var typed2 = new Typed('#typed-deskripsi', {
             strings: [
                 // Ini Deskripsi
-                "{{.Site.Params.description_text}}"
+                "{{.Params.description}}"
             ],
             typeSpeed: 10,
             backSpeed: 20,
@@ -52,6 +53,7 @@
             loop: false
         });
     </script>
+    {{ end }}
     <!-- Akhir Bagian Script -->
 </body>
 
