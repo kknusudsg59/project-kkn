@@ -35,3 +35,5 @@ fields:
     schema:
       format: markdown
   label: content
+pages:
+- content/destinasi/test-post-destinasi-forestry.md
