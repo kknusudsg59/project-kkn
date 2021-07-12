@@ -4,7 +4,7 @@
 {{- partial "head.html" . -}}
 <!-- Navigasi Atas -->
 <section id="nav">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand text-body fw-bold" href="{{ .Site.BaseURL }}">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -14,7 +14,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     {{ range .Site.Menus.nav }}
-                        <a class="nav-link text-dark" href=" {{ .URL }}">{{ .Name }}</a>
+                        <a class="nav-link" href=" {{ .URL }}">{{ .Name }}</a>
                     {{ end }}
                 </div>
             </div>
