@@ -21,7 +21,7 @@
                     {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                 {{ $img := $imageResource }}
                 <div class="text-center">
-                    <img src="/image/{{ $img }}" class="img-fluid" style="max-width: 800px;" />
+                    <img src="/image/{{ $img }}" class="img-fluid" /><br>
                 </div>
                 {{ end }}
                 
@@ -29,7 +29,7 @@
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
                 <div class="row text-center text-lg-left photos">
                 {{ range . }}
-                <div class="col-lg-3 col-md-4 col-6 item">
+                <div class="col-lg-3 col-md-4 col-6 mb-3 item">
                     <a href="{{ . }}" data-lightbox="photos">
                           <img class="img-fluid img-thumbnail" src="{{ . }}" alt="">
                         </a>
@@ -40,9 +40,8 @@
                       'maxHeight': 500,
                       'wrapAround': true
                     })
-                </script></div>{{ end }}
-                <br>
-                <br>
+                </script>></div>{{ end }}
+                
                 <div style="text-align: justify;">
                     {{.Content}}
                 </div>
