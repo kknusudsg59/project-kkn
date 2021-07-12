@@ -16,15 +16,34 @@
                 </p>
                 <p class="fw-bold">Ditulis oleh: {{.Params.author}}</p>
 
-                {{ with .Params.img }}
+                {{ with .Params.image }}
                 {{ $images := . }}
                     {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                 {{ $img := $imageResource }}
-                <img src="{{ $img.RelPermalink }}" class="img-fluid" />
-                <br>
-                <br>
+                <div class="text-center">
+                    <img src="{{ $img.RelPermalink }}" class="img-fluid" style="max-width: 800px;" />
+                </div>
+                
+                <br><br>
                 {{ end }}
                 
+                {{ with .Params.img }}
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+                <div class="row text-center text-lg-left photos">
+                {{ range . }}
+                <div class="col-lg-3 col-md-4 col-6 item">
+                    <a href="/image/{{ . }}" data-lightbox="photos">
+                          <img class="img-fluid img-thumbnail" src="/image/{{ . }}" alt="">
+                        </a>
+                  </div>
+                {{ end }}<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+                <script>
+                    lightbox.option({
+                      'maxHeight': 500,
+                      'wrapAround': true
+                    })
+                </script></div>{{ end }}
+
                 <div style="text-align: justify;">
                     {{.Content}}
                 </div>
