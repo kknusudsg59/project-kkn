@@ -28,4 +28,6 @@
 {{ range .Site.Params.waypoint_js -}}
 <script src="{{ . | absURL }}"></script>
 {{- end}}
-<title>{{ .Site.Title }}</title>
+{{ with .Site.GetPage "/identity.md" }}
+<title>{{ .Params.title }}</title>
+{{ end }}
