@@ -1,0 +1,19 @@
+---
+label: destinasi-template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: category
+  label: category
+- type: datetime
+  name: date
+  label: date
+- type: image_gallery
+  name: img
+  label: img
