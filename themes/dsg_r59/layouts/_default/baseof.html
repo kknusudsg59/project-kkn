@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{- partial "head.html" . -}}
+</head>
+
+<body>
+    {{- partial "section_nav.html" . -}}
+    {{- partial "section_welcome.html" . -}}
+    <div id="content">
+        {{ block "post" . }}
+        {{ end }}
+    </div>
+    {{- partial "section_profile.html" . -}}
+    {{- partial "section_statistik.html" . -}}
+    {{- partial "section_galeri.html" . -}}
+    {{- partial "footer.html" . -}}
+
+    <!-- Bagian Css -->
+    {{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+    <!-- Akhir Css -->
+    <!-- Bagian Script -->
+    {{ range .Site.Params.magnific_js -}}
+    <script src="{{ . | absURL }}"></script>
+    {{- end}}
+    {{ range .Site.Params.custom_js -}}
+    <script src="{{ . | absURL }}"></script>
+    {{- end}}
+    {{ range .Site.Params.typed_js -}}
+    <script src="{{ . | absURL }}"></script>
+    {{- end}}
+    <script>
+        var typed1 = new Typed('#typed-welcome', {
+            strings: ["{{.Site.Params.welcome_text}}"], // Ini Pesan Selamat Datang
+            typeSpeed: 50,
+            backSpeed: 20,
+            smartBackspace: true,
+            loop: false
+        });
+        var typed2 = new Typed('#typed-deskripsi', {
+            strings: [
+                // Ini Deskripsi
+                "{{.Site.Params.description_text}}"
+            ],
+            typeSpeed: 10,
+            backSpeed: 20,
+            smartBackspace: true,
+            loop: false
+        });
+    </script>
+    <!-- Akhir Bagian Script -->
+</body>
+
+</html>

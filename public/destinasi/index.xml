@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Destinasis on Hello World!</title>
+    <link>http://example.org/destinasi/</link>
+    <description>Recent content in Destinasis on Hello World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Jul 2021 22:57:36 +0700</lastBuildDate><atom:link href="http://example.org/destinasi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Destination Post</title>
+      <link>http://example.org/destinasi/first-destination-post/</link>
+      <pubDate>Sun, 11 Jul 2021 22:57:36 +0700</pubDate>
+      
+      <guid>http://example.org/destinasi/first-destination-post/</guid>
+      <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo inventore cumque aliquid tempore animi nulla dolor accusantium! Iure consequuntur nam ipsa optio, ratione delectus maiores sint quis, commodi saepe in magnam deserunt quisquam incidunt ipsam aspernatur perspiciatis ipsum.</description>
+    </item>
+    
+  </channel>
+</rss>

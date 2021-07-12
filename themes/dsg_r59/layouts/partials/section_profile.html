@@ -1,0 +1,42 @@
+<!-- Struktur Kepemimpinan Desa -->
+<section id="profile">
+    <div class="container text-center ">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5 col-sm-6">
+                <h2 class="fw-bold text-dark border-bottom border-4 pb-1 border-dark">{{ .Site.Params.profile_title }}
+                </h2>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-4 col-md-6 mt-3">
+                <img src="{{ .Site.Params.foto_profil_1 }}" class="img-thumbnail rounded-circle" alt="Foto 1"
+                    style="width: 200px;">
+                <h4 class="mt-3">{{ .Site.Params.nama_1 }}</h4>
+                <p>{{ .Site.Params.jabatan_1 }}</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mt-3">
+                <img src="{{ .Site.Params.foto_profil_2 }}" class="img-thumbnail rounded-circle" alt="Foto 2"
+                    style="width: 200px;">
+                <h4 class="mt-3">{{ .Site.Params.nama_2 }}</h4>
+                <p>{{ .Site.Params.jabatan_2 }}</p>
+            </div>
+            <div class="col-lg-4 col-md-12 mt-3">
+                <img src="{{ .Site.Params.foto_profil_3 }}" class="img-thumbnail rounded-circle" alt="Foto 3"
+                    style="width: 200px;">
+                <h4 class="mt-3">{{ .Site.Params.nama_3 }}</h4>
+                <p>{{ .Site.Params.jabatan_3 }}</p>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#fdfc47;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#24fe41;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+        <path fill="url(#grad1)" fill-opacity="1"
+            d="M0,64L48,64C96,64,192,64,288,80C384,96,480,128,576,149.3C672,171,768,181,864,197.3C960,213,1056,235,1152,240C1248,245,1344,235,1392,229.3L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+</section>
+<!-- Akhir Struktur Kepemimpinan Desa -->
