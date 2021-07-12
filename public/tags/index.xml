@@ -2,28 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hello World!</title>
-    <link>http://example.org/tags/</link>
+    <link>https://project-kkn.onrender.com/tags/</link>
     <description>Recent content in Tags on Hello World!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>gallery</title>
-      <link>http://example.org/tags/gallery/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/gallery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lightbox</title>
-      <link>http://example.org/tags/lightbox/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/tags/lightbox/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://project-kkn.onrender.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
