@@ -14,5 +14,3 @@ fields:
 - type: datetime
   name: date
   label: date
-pages:
-- content/blog/test-post-blog-forestry.md
