@@ -1,4 +1,28 @@
 ---
 label: destinasi-post
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: category
+  type: text
+  config:
+    required: false
+  label: category
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
