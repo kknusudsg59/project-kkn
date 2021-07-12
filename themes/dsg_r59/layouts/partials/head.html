@@ -27,4 +27,4 @@
 {{ range .Site.Params.waypoint_js -}}
 <script src="{{ . | absURL }}"></script>
 {{- end}}
-<title>{{ .Title }}</title>
+<title>{{ .Site.Title }}</title>

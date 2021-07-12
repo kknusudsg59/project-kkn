@@ -1,4 +1,4 @@
-{{ $title := .Title }}
+{{ $title := .Site.Title }}
 {{ $imgURL := .Params.image }}
 {{ $url := printf "%s" .Permalink | absLangURL }}
 {{ $body := print $title ", by " .Site.Title "\n" .Summary "\n\n" "Baca lebih lanjut di " $url "\n" }}
@@ -15,14 +15,16 @@
                 </p><br>
                 </p>
                 <p class="fw-bold">Ditulis oleh: {{.Params.author}}</p>
-                
 
                 {{ with .Params.img }}
                 {{ $images := . }}
                     {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                 {{ $img := $imageResource }}
-                <img src="{{ $img.RelPermalink }}" width="600" />
+                <img src="{{ $img.RelPermalink }}" class="img-fluid" />
+                <br>
+                <br>
                 {{ end }}
+                
                 <div style="text-align: justify;">
                     {{.Content}}
                 </div>
