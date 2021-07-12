@@ -13,10 +13,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link text-dark" href="{{ "" | absLangURL }}">Beranda</a>
-                    <a class="nav-link text-dark" href="/blog">Blog</a>
-                    <a class="nav-link text-dark" href="/destinasi">Destinasi</a>
-                    <a class="nav-link text-dark" href="/image-gallery">Galeri</a>
+                    {{ range .Site.Menus.nav }}
+                        <a class="nav-link text-dark" href=" {{ .URL }}">{{ .Name }}</a>
+                    {{ end }}
                 </div>
             </div>
         </div>

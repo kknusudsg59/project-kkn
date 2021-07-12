@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://project-kkn.onrender.com"
 languageCode = "en-us"
 title = "Hello World!"
 theme = "dsg_r59"
@@ -14,6 +14,28 @@ custom_js = ["js/custom.js"]
 magnific_js = ["js/magnific.js"]
 typed_js = ["js/typed.min.js"]
 ### Section Menu ###
+
+[menu]
+
+    [[menu.nav]]
+    name = "Beranda"
+    URL = "/"
+    weight = 1
+
+    [[menu.nav]]
+    name = "Blog"
+    URL = "/blog"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Destinasi"
+    URL = "/destinasi"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Galeri"
+    URL = "/image-gallery"
+    weight = 4
 
 ### Section Welcome ###
 welcome_text = "Selamat datang di Desa Denai Kuala." # <-- Bagian ucapan selamat datang
