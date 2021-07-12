@@ -1,0 +1,37 @@
+---
+label: galeri-slider-template
+hide_body: true
+fields:
+- type: text
+  name: author
+  label: author
+- type: text
+  name: category
+  label: category
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: file
+  name: slide1
+  label: slide1
+- type: file
+  name: slide2
+  label: slide2
+- type: file
+  name: slide3
+  label: slide3
+- type: text
+  name: slide1_desc
+  label: slide1_desc
+- type: text
+  name: slide2_desc
+  label: slide2_desc
+- type: text
+  name: slide3_desc
+  label: slide3_desc
+- type: text
+  name: title
+  label: title
