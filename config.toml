@@ -3,48 +3,56 @@ languageCode = "en-us"
 summaryLength = "30"
 theme = "dsg_r59"
 title = "Hello World!"
-[[menu.nav]]
-URL = "/image-gallery"
-adult_title = "Dewasa"
-child_title = "Anak-anak"
-data_adult = "100"
-data_child = "300"
-data_update = "*Data diperbaharui secara manual"
-data_young = "200"
-description_text = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint, quam incidunt sunt cumque qui. Veniam quidem veritatis ipsa architecto dicta! Repudiandae quod recusandae magnam nulla impedit aliquid dignissimos commodi, ea eveniet quo porro iste iusto temporibus id ipsa iure nemo culpa excepturi animi! Obcaecati minus consequatur veritatis nostrum quibusdam molestias pariatur, magni minima! Vel, laboriosam corporis? Aliquam maxime nemo eos non consectetur vel itaque quo veritatis explicabo neque qui, ex laboriosam incidunt, consequuntur eveniet deleniti porro unde excepturi! Ipsa molestias amet rerum, tempore natus sint quos! Cupiditate voluptatibus eius, facere voluptates maxime perspiciatis ab beatae, facilis repellendus amet possimus."
-foto_profil_1 = "img/mustafa-.png"
-foto_profil_2 = "img/mustafa-.png"
-foto_profil_3 = "img/mustafa-.png"
-gallery_title = "Galeri Foto"
-jabatan_1 = "Jabatan"
-jabatan_2 = "Jabatan"
-jabatan_3 = "Jabatan"
-nama_1 = "Nama 1"
-nama_2 = "Nama 2"
-nama_3 = "Nama 3"
-name = "Galeri"
-post_title = "Artikel Terbaru"
-profile_title = "Perangkat Desa"
-statistik_title = "Jumlah Penduduk Saat Ini"
-weight = 4
-welcome_text = "Selamat datang di Desa Denai Kuala."
-young_title = "Remaja"
-[[menu.nav]]
-URL = "/destinasi"
-name = "Destinasi"
-weight = 3
-[[menu.nav]]
-URL = "/blog"
-name = "Blog"
-weight = 2
-[[menu.nav]]
-URL = "/"
-name = "Beranda"
-weight = 1
+
+[menu]
+
+    [[menu.nav]]
+    URL = "/"
+    name = "Beranda"
+    weight = 1
+
+    [[menu.nav]]
+    URL = "/blog"
+    name = "Blog"
+    weight = 2
+
+    [[menu.nav]]
+    URL = "/destinasi"
+    name = "Destinasi"
+    weight = 3
+
+    [[menu.nav]]
+    URL = "/image-gallery"
+    name = "Galeri"
+    weight = 4
+    
 [params]
-custom_css = ["css/custom.css"]
-custom_js = ["js/custom.js"]
-jquery_v1 = ["js/jquery-1.11.1.min.js"]
-magnific_js = ["js/magnific.js"]
-typed_js = ["js/typed.min.js"]
-waypoint_js = ["js/waypoints.js"]
+    custom_css = ["css/custom.css"]
+    custom_js = ["js/custom.js"]
+    jquery_v1 = ["js/jquery-1.11.1.min.js"]
+    magnific_js = ["js/magnific.js"]
+    typed_js = ["js/typed.min.js"]
+    waypoint_js = ["js/waypoints.js"]
+    welcome_text = "Selamat datang di Desa Denai Kuala."
+    young_title = "Remaja"
+    adult_title = "Dewasa"
+    child_title = "Anak-anak"
+    data_adult = "100"
+    data_child = "300"
+    data_update = "*Data diperbaharui secara manual"
+    data_young = "200"
+    description_text = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint, quam incidunt sunt cumque qui. Veniam quidem veritatis ipsa architecto dicta! Repudiandae quod recusandae magnam nulla impedit aliquid dignissimos commodi, ea eveniet quo porro iste iusto temporibus id ipsa iure nemo culpa excepturi animi! Obcaecati minus consequatur veritatis nostrum quibusdam molestias pariatur, magni minima! Vel, laboriosam corporis? Aliquam maxime nemo eos non consectetur vel itaque quo veritatis explicabo neque qui, ex laboriosam incidunt, consequuntur eveniet deleniti porro unde excepturi! Ipsa molestias amet rerum, tempore natus sint quos! Cupiditate voluptatibus eius, facere voluptates maxime perspiciatis ab beatae, facilis repellendus amet possimus."
+    foto_profil_1 = "img/mustafa-.png"
+    foto_profil_2 = "img/mustafa-.png"
+    foto_profil_3 = "img/mustafa-.png"
+    gallery_title = "Galeri Foto"
+    jabatan_1 = "Jabatan"
+    jabatan_2 = "Jabatan"
+    jabatan_3 = "Jabatan"
+    nama_1 = "Nama 1"
+    nama_2 = "Nama 2"
+    nama_3 = "Nama 3"
+    name = "Galeri"
+    post_title = "Artikel Terbaru"
+    profile_title = "Perangkat Desa"
+    statistik_title = "Jumlah Penduduk Saat Ini"
