@@ -53,7 +53,7 @@
                 <div class="card">
                     {{ with .Params.img }}
                         {{ $images := . }}
-                            {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/uploads/" (index $images 0)) }}
+                            {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (index $images 0) }}
                                 {{ $img := $imageResource }}
                                 <img src="{{ $img.RelPermalink }}" class="card-img-top">
                     {{ end }}
