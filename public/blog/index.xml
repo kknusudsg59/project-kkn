@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Hello World!</title>
+    <title>Semua Artikel on Hello World!</title>
     <link>https://project-kkn.onrender.com/blog/</link>
-    <description>Recent content in Blogs on Hello World!</description>
+    <description>Recent content in Semua Artikel on Hello World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Jul 2021 21:04:33 +0700</lastBuildDate><atom:link href="https://project-kkn.onrender.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jul 2021 17:00:00 +0000</lastBuildDate><atom:link href="https://project-kkn.onrender.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post Blog Forestry</title>
+      <link>https://project-kkn.onrender.com/blog/test-post-blog-forestry/</link>
+      <pubDate>Sun, 11 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/blog/test-post-blog-forestry/</guid>
+      <description>testing</description>
+    </item>
+    
     <item>
       <title>My Fifth Post</title>
       <link>https://project-kkn.onrender.com/blog/my-fifth-post/</link>

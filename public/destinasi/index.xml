@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Destinasis on Hello World!</title>
+    <title>Semua Destinasi on Hello World!</title>
     <link>https://project-kkn.onrender.com/destinasi/</link>
-    <description>Recent content in Destinasis on Hello World!</description>
+    <description>Recent content in Semua Destinasi on Hello World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Jul 2021 23:48:12 +0700</lastBuildDate><atom:link href="https://project-kkn.onrender.com/destinasi/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,16 @@
       <pubDate>Mon, 12 Jul 2021 23:48:12 +0700</pubDate>
       
       <guid>https://project-kkn.onrender.com/destinasi/first-destination-post/</guid>
-      <description></description>
+      <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo inventore cumque aliquid tempore animi nulla dolor accusantium! Iure consequuntur nam ipsa optio, ratione delectus maiores sint quis, commodi saepe in magnam deserunt quisquam incidunt ipsam aspernatur perspiciatis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Test Post Destinasi Forestry</title>
+      <link>https://project-kkn.onrender.com/destinasi/test-post-destinasi-forestry/</link>
+      <pubDate>Sun, 11 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/destinasi/test-post-destinasi-forestry/</guid>
+      <description>Test</description>
     </item>
     
   </channel>

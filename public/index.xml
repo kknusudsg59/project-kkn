@@ -6,14 +6,77 @@
     <description>Recent content on Hello World!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Jul 2021 23:48:12 +0700</lastBuildDate><atom:link href="https://project-kkn.onrender.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 03:38:03 +0700</lastBuildDate><atom:link href="https://project-kkn.onrender.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile 1</title>
+      <link>https://project-kkn.onrender.com/component/profile1/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile 2</title>
+      <link>https://project-kkn.onrender.com/component/profile2/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile 3</title>
+      <link>https://project-kkn.onrender.com/component/profile3/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistik</title>
+      <link>https://project-kkn.onrender.com/component/statistik/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/statistik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Gallery</title>
+      <link>https://project-kkn.onrender.com/galeri/</link>
+      <pubDate>Mon, 12 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/galeri/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>First Destination Post</title>
       <link>https://project-kkn.onrender.com/destinasi/first-destination-post/</link>
       <pubDate>Mon, 12 Jul 2021 23:48:12 +0700</pubDate>
       
       <guid>https://project-kkn.onrender.com/destinasi/first-destination-post/</guid>
-      <description></description>
+      <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo inventore cumque aliquid tempore animi nulla dolor accusantium! Iure consequuntur nam ipsa optio, ratione delectus maiores sint quis, commodi saepe in magnam deserunt quisquam incidunt ipsam aspernatur perspiciatis ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Test Post Blog Forestry</title>
+      <link>https://project-kkn.onrender.com/blog/test-post-blog-forestry/</link>
+      <pubDate>Sun, 11 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/blog/test-post-blog-forestry/</guid>
+      <description>testing</description>
+    </item>
+    
+    <item>
+      <title>Test Post Destinasi Forestry</title>
+      <link>https://project-kkn.onrender.com/destinasi/test-post-destinasi-forestry/</link>
+      <pubDate>Sun, 11 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/destinasi/test-post-destinasi-forestry/</guid>
+      <description>Test</description>
     </item>
     
     <item>
@@ -32,15 +95,6 @@
       
       <guid>https://project-kkn.onrender.com/blog/my-fourth-post/</guid>
       <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo inventore cumque aliquid tempore animi nulla dolor accusantium! Iure consequuntur nam ipsa optio, ratione delectus maiores sint quis, commodi saepe in magnam deserunt quisquam incidunt ipsam aspernatur perspiciatis ipsum.</description>
-    </item>
-    
-    <item>
-      <title>Image Gallery</title>
-      <link>https://project-kkn.onrender.com/image-gallery/</link>
-      <pubDate>Tue, 06 Jul 2021 12:29:05 +0700</pubDate>
-      
-      <guid>https://project-kkn.onrender.com/image-gallery/</guid>
-      <description></description>
     </item>
     
     <item>

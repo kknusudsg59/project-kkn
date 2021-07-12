@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on Hello World!</title>
+    <link>https://project-kkn.onrender.com/component/</link>
+    <description>Recent content in Components on Hello World!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jul 2021 03:38:03 +0700</lastBuildDate><atom:link href="https://project-kkn.onrender.com/component/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile 1</title>
+      <link>https://project-kkn.onrender.com/component/profile1/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile 2</title>
+      <link>https://project-kkn.onrender.com/component/profile2/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Profile 3</title>
+      <link>https://project-kkn.onrender.com/component/profile3/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/profile3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistik</title>
+      <link>https://project-kkn.onrender.com/component/statistik/</link>
+      <pubDate>Tue, 13 Jul 2021 03:38:03 +0700</pubDate>
+      
+      <guid>https://project-kkn.onrender.com/component/statistik/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,26 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://project-kkn.onrender.com/destinasi/</loc>
-    <lastmod>2021-07-12T23:48:12+07:00</lastmod>
+    <loc>https://project-kkn.onrender.com/component/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/component/profile1/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/component/profile2/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/component/profile3/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/component/statistik/</loc>
+    <lastmod>2021-07-13T03:38:03+07:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/galeri/</loc>
+    <lastmod>2021-07-12T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://project-kkn.onrender.com/destinasi/first-destination-post/</loc>
     <lastmod>2021-07-12T23:48:12+07:00</lastmod>
   </url><url>
-    <loc>https://project-kkn.onrender.com/</loc>
+    <loc>https://project-kkn.onrender.com/destinasi/</loc>
     <lastmod>2021-07-12T23:48:12+07:00</lastmod>
   </url><url>
     <loc>https://project-kkn.onrender.com/blog/</loc>
-    <lastmod>2021-07-06T21:04:33+07:00</lastmod>
+    <lastmod>2021-07-11T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/blog/test-post-blog-forestry/</loc>
+    <lastmod>2021-07-11T17:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://project-kkn.onrender.com/destinasi/test-post-destinasi-forestry/</loc>
+    <lastmod>2021-07-11T17:00:00+00:00</lastmod>
   </url><url>
     <loc>https://project-kkn.onrender.com/blog/my-fifth-post/</loc>
     <lastmod>2021-07-06T21:04:33+07:00</lastmod>
   </url><url>
     <loc>https://project-kkn.onrender.com/blog/my-fourth-post/</loc>
     <lastmod>2021-07-06T12:29:10+07:00</lastmod>
-  </url><url>
-    <loc>https://project-kkn.onrender.com/image-gallery/</loc>
-    <lastmod>2021-07-06T12:29:05+07:00</lastmod>
   </url><url>
     <loc>https://project-kkn.onrender.com/blog/my-third-post/</loc>
     <lastmod>2021-07-06T12:29:05+07:00</lastmod>
