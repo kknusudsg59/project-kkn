@@ -1,79 +1,50 @@
 baseURL = "https://project-kkn.onrender.com"
 languageCode = "en-us"
-title = "Hello World!"
-theme = "dsg_r59"
 summaryLength = "30"
-
-
-
+theme = "dsg_r59"
+title = "Hello World!"
+[[menu.nav]]
+URL = "/image-gallery"
+adult_title = "Dewasa"
+child_title = "Anak-anak"
+data_adult = "100"
+data_child = "300"
+data_update = "*Data diperbaharui secara manual"
+data_young = "200"
+description_text = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint, quam incidunt sunt cumque qui. Veniam quidem veritatis ipsa architecto dicta! Repudiandae quod recusandae magnam nulla impedit aliquid dignissimos commodi, ea eveniet quo porro iste iusto temporibus id ipsa iure nemo culpa excepturi animi! Obcaecati minus consequatur veritatis nostrum quibusdam molestias pariatur, magni minima! Vel, laboriosam corporis? Aliquam maxime nemo eos non consectetur vel itaque quo veritatis explicabo neque qui, ex laboriosam incidunt, consequuntur eveniet deleniti porro unde excepturi! Ipsa molestias amet rerum, tempore natus sint quos! Cupiditate voluptatibus eius, facere voluptates maxime perspiciatis ab beatae, facilis repellendus amet possimus."
+foto_profil_1 = "img/mustafa-.png"
+foto_profil_2 = "img/mustafa-.png"
+foto_profil_3 = "img/mustafa-.png"
+gallery_title = "Galeri Foto"
+jabatan_1 = "Jabatan"
+jabatan_2 = "Jabatan"
+jabatan_3 = "Jabatan"
+nama_1 = "Nama 1"
+nama_2 = "Nama 2"
+nama_3 = "Nama 3"
+name = "Galeri"
+post_title = "Artikel Terbaru"
+profile_title = "Perangkat Desa"
+statistik_title = "Jumlah Penduduk Saat Ini"
+weight = 4
+welcome_text = "Selamat datang di Desa Denai Kuala."
+young_title = "Remaja"
+[[menu.nav]]
+URL = "/destinasi"
+name = "Destinasi"
+weight = 3
+[[menu.nav]]
+URL = "/blog"
+name = "Blog"
+weight = 2
+[[menu.nav]]
+URL = "/"
+name = "Beranda"
+weight = 1
 [params]
-jquery_v1 = ["js/jquery-1.11.1.min.js"]
-waypoint_js = ["js/waypoints.js"]
 custom_css = ["css/custom.css"]
 custom_js = ["js/custom.js"]
+jquery_v1 = ["js/jquery-1.11.1.min.js"]
 magnific_js = ["js/magnific.js"]
 typed_js = ["js/typed.min.js"]
-### Section Menu ###
-
-[menu]
-
-    [[menu.nav]]
-    name = "Beranda"
-    URL = "/"
-    weight = 1
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "/blog"
-    weight = 2
-
-    [[menu.nav]]
-    name = "Destinasi"
-    URL = "/destinasi"
-    weight = 3
-
-    [[menu.nav]]
-    name = "Galeri"
-    URL = "/image-gallery"
-    weight = 4
-
-### Section Welcome ###
-welcome_text = "Selamat datang di Desa Denai Kuala." # <-- Bagian ucapan selamat datang
-# Dibawah ini bagian dari paragraf mengenai desa
-description_text = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint, quam incidunt sunt cumque qui. Veniam quidem veritatis ipsa architecto dicta! Repudiandae quod recusandae magnam nulla impedit aliquid dignissimos commodi, ea eveniet quo porro iste iusto temporibus id ipsa iure nemo culpa excepturi animi! Obcaecati minus consequatur veritatis nostrum quibusdam molestias pariatur, magni minima! Vel, laboriosam corporis? Aliquam maxime nemo eos non consectetur vel itaque quo veritatis explicabo neque qui, ex laboriosam incidunt, consequuntur eveniet deleniti porro unde excepturi! Ipsa molestias amet rerum, tempore natus sint quos! Cupiditate voluptatibus eius, facere voluptates maxime perspiciatis ab beatae, facilis repellendus amet possimus."
-
-### Section Post ###
-post_title = "Artikel Terbaru" # <-- Bagian judul dari Artikel
-
-### Section Profile ###
-profile_title ="Perangkat Desa" # <-- Bagian judul dari profil
-# Dibawah Ini adalah bagian profil perangkat desa
-# Ini adalah profil dari tokoh perangkat desa bagian sebelah kiri
-foto_profil_1 = "img/mustafa-.png" # <-- Masukkan link foto profilnya atau upload terlebih dahulu ke folder "img"
-nama_1 = "Nama 1"
-jabatan_1 = "Jabatan"
-# Dibawah Ini adalah profil dari tokoh perangkat desa bagian tengah
-foto_profil_2 = "img/mustafa-.png" # <-- Masukkan link foto profilnya atau upload terlebih dahulu ke folder "img"
-nama_2 = "Nama 2"
-jabatan_2 = "Jabatan"
-# Dibawah Ini adalah profil dari tokoh perangkat desa bagian sebelah kanan
-foto_profil_3 = "img/mustafa-.png" # <-- Masukkan link foto profilnya atau upload terlebih dahulu ke folder "img"
-nama_3 = "Nama 3"
-jabatan_3 = "Jabatan"
-
-### Section Statistik ###
-statistik_title = "Jumlah Penduduk Saat Ini" # <-- Bagian judul dari Statistik
-data_update = "*Data diperbaharui secara manual" # <-- Status pembaruan data
-# Dewasa
-adult_title = "Dewasa" # <-- Bagian judul dari statistik Dewasa
-data_adult = "100" # <-- Banyaknya jumlah dari orang Dewasa
-# Remaja
-young_title = "Remaja" # <-- Bagian judul dari statistik Remaja
-data_young = "200" # <-- Banyaknya jumlah dari orang Dewasa
-# Anak-anak
-child_title = "Anak-anak" # <-- Bagian judul dari statistik Anak-anak
-data_child = "300" # <-- Banyaknya jumlah dari orang Dewasa
-
-### Section Galeri ###
-gallery_title = "Galeri Foto" # <-- Bagian judul dari Galeri
-
+waypoint_js = ["js/waypoints.js"]
