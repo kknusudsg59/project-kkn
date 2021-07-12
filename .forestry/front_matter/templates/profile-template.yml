@@ -18,6 +18,5 @@ fields:
   name: image
   label: image
 pages:
-- content/profile-1.md
 - content/profile2.md
 - content/profile3.md
