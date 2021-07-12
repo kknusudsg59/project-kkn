@@ -1,0 +1,19 @@
+---
+label: profile-template
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: nama
+  label: nama
+- type: text
+  name: jabatan
+  label: jabatan
+- type: file
+  name: image
+  label: image
