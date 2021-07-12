@@ -12,7 +12,7 @@
                 <div class="card text-center" style="border-radius: 15px;">
                     <div id="counter" class="card-body">
                         <h5 class="card-title">{{.Site.Params.adult_title}}</h5>
-                        {{ with .Site.GetPage "/component/statistik.md" }}
+                        {{ with .Site.GetPage "/statistik.md" }}
                         <h3 class="card-title fs-2 fw-bolder counter-value" data-count="{{ .Params.dewasa }}">0
                         </h3>{{ end }}
                         <p class="card-text count-text">Jiwa*
@@ -27,7 +27,7 @@
                 <div class="card text-center" style="border-radius: 15px;">
                     <div id="counter" class="card-body">
                         <h5 class="card-title">{{.Site.Params.young_title}}</h5>
-                        {{ with .Site.GetPage "/component/statistik.md" }}
+                        {{ with .Site.GetPage "/statistik.md" }}
                         <h3 class="card-title fs-2 fw-bolder counter-value" data-count="{{.Params.remaja}}">0
                         </h3>{{ end }}
                         <p class="card-text count-text">Jiwa*
@@ -41,7 +41,7 @@
             <div class="col-lg-3 col-md-5 col-sm-6 col-8 mt-3">
                 <div class="card text-center" style="border-radius: 15px;">
                     <div id="counter" class="card-body">
-                        <h5 class="card-title">{{.Site.Params.child_title}}</h5>{{ with .Site.GetPage "/component/statistik.md" }}
+                        <h5 class="card-title">{{.Site.Params.child_title}}</h5>{{ with .Site.GetPage "/statistik.md" }}
                         <h3 class="card-title fs-2 fw-bolder counter-value" data-count="{{.Params.anak}}">0
                         </h3>{{ end }}
                         <p class="card-text count-text">Jiwa*
