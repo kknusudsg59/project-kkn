@@ -57,7 +57,7 @@
                         {{ $images := . }}
                             {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                                 {{ $img := $imageResource }}
-                                    <img src="{{ $img }}" class="img-fluid" />
+                                    <img src="/image/{{ $img }}" class="img-fluid" />
                     {{ end }}
                     
                     <div class="card-body">
