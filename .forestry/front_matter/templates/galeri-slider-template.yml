@@ -35,3 +35,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- content/galeri1.md
