@@ -12,7 +12,7 @@
             <div class="col-lg-10">
                 <h1 class="border-bottom border-2 pb-3">{{.Title}}</h1>
                 <p class="text-end pb-3 text-secondary">Dibuat pada tanggal: {{.PublishDate.Format "6-01-2006"}}
-                </p><br>
+                </p>
                 </p>
                 <p class="fw-bold">Ditulis oleh: {{.Params.author}}</p>
 
@@ -21,7 +21,7 @@
                     {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                 {{ $img := $imageResource }}
                 <div class="text-center">
-                    <img src="/image/{{ $img }}" class="img-fluid" /><br>
+                    <img src="/image/{{ $img }}" class="img-fluid" />
                 </div>
                 {{ end }}
                 
@@ -40,7 +40,7 @@
                       'maxHeight': 500,
                       'wrapAround': true
                     })
-                </script>></div>{{ end }}
+                </script></div>{{ end }}
                 
                 <div style="text-align: justify;">
                     {{.Content}}
