@@ -20,3 +20,5 @@ fields:
 - type: image_gallery
   name: img
   label: img
+pages:
+- content/galeri.md
