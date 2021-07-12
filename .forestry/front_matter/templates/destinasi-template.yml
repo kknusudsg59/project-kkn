@@ -17,3 +17,5 @@ fields:
 - type: image_gallery
   name: image
   label: image
+pages:
+- content/destinasi/test-post-destinasi-forestry.md
