@@ -22,7 +22,7 @@ title = "Hello World!"
     weight = 3
 
     [[menu.nav]]
-    URL = "/image-gallery"
+    URL = "/galeri"
     name = "Galeri"
     weight = 4
     
