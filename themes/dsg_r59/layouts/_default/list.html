@@ -51,11 +51,11 @@
             {{ range .Pages }}
             <div class="col-md-6 mb-3">
                 <div class="card">
-                    {{ with .Params.img }}
+                    {{ with .Params.image }}
                         {{ $images := . }}
                             {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                                 {{ $img := $imageResource }}
-                                <img src="{{ $img.RelPermalink }}" class="card-img-top">
+                                    <img src="{{ $img.RelPermalink }}" class="img-fluid" />
                     {{ end }}
                     <div class="card-body">
                         <h5 class="card-title">{{ .Title }}</h5>
