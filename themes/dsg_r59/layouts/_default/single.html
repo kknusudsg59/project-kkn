@@ -21,7 +21,7 @@
                     {{ $imageResource := ($.Site.GetPage "section" "image").Resources.GetMatch (strings.TrimPrefix "/image/" (index $images 0)) }}
                 {{ $img := $imageResource }}
                 <div class="text-center">
-                    <img src="{{ $img.RelPermalink }}" class="img-fluid" style="max-width: 800px;" />
+                    <img src="/image/{{ . }}" class="img-fluid" style="max-width: 800px;" />
                 </div>
                 
                 <br><br>
