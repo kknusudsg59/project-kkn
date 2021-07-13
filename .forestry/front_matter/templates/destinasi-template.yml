@@ -18,4 +18,5 @@ fields:
   name: image
   label: image
 pages:
+- content/destinasi/test-post-destinasi-forestry-terbaru.md
 - content/destinasi/test-post-destinasi-forestry.md
