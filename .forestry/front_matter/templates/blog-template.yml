@@ -15,4 +15,5 @@ fields:
   name: date
   label: date
 pages:
+- content/blog/test-post-blog-forestry-2.md
 - content/blog/test-post-blog-forestry.md
