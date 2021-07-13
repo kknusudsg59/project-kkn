@@ -1,4 +1,5 @@
 +++
-title = "Hello world!"
-name = "Desaku"
+name = "Web Desa"
+title = "Website Static Hugo"
+
 +++
