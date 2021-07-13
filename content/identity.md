@@ -1,5 +1,5 @@
 +++
 name = "Web Desa"
-title = "Website Static Hugo"
+title = "Web Desa"
 
 +++
