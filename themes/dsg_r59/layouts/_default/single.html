@@ -1,6 +1,6 @@
 {{ $title := .Title }}
 {{ $imgURL := .Params.image }}
-{{ $url := printf "%s" .Permalink | absLangURL }}
+{{ $url := printf .Title "\n" "%s" .Permalink | absLangURL }}
 {{ $body := print .Title ", by " .Params.author "\n" .Summary "\n\n" "Baca lebih lanjut di " $url "\n" }}
 {{- partial "head.html" . -}}
 {{- partial "section_nav.html" . -}}
@@ -69,11 +69,11 @@
                                 <a class="nav-link" href="mailto:?subject=Ayo%20lihat%20{{ $title }}.&body={{ $body }}"
                                     target="_blank"><i class="bi bi-envelope fs-3"></i></a>
                             </li>
-                            <li class="nav-item">
+<!--                             <li class="nav-item">
                                 <a class="nav-link"
                                     href="https://twitter.com/intent/tweet?url={{ $url }}&text={{ $title }}"
                                     target="_blank"><i class="bi bi-twitter fs-3"></i></a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
