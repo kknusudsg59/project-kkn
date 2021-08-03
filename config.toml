@@ -2,7 +2,7 @@ baseURL = "https://denaikuala.id"
 languageCode = "en-us"
 summaryLength = "30"
 theme = "dsg_r59"
-title = "Hello World!"
+#title = "Hello World!"
 
 [menu]
 
