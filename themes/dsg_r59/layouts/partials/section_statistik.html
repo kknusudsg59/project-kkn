@@ -13,7 +13,7 @@
                     <div id="counter" class="card-body">
                         <h5 class="card-title">{{.Site.Params.men_title}}</h5>
                         {{ with .Site.GetPage "/statistik.md" }}
-                        <h3 class="card-title fs-2 fw-bolder counter-value" data-count="{{ ".Params.laki-laki" }}">0
+                        <h3 class="card-title fs-2 fw-bolder counter-value" data-count="{{ .Params.laki_laki }}">0
                         </h3>{{ end }}
                         <p class="card-text count-text">Jiwa*
                         </p>
