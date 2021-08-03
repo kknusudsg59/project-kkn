@@ -3,6 +3,7 @@ title: First Destination Post
 date: 2021-07-12T23:48:12.000+07:00
 author: John Doe
 category: Pariwisata, Ekonomi
+draft: true
 image:
 - cristina-gottardi-CSpjU6hYo_0-unsplash.jpg
 
