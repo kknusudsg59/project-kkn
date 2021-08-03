@@ -1,4 +1,4 @@
-{{ $title := .Site.title }}
+{{ $title := .Site.Title }}
 {{ $imgURL := .Params.image }}
 {{ $url := printf "%s" .Permalink | absLangURL }}
 {{ $body := print $title ", by " .Site.Title "\n" .Summary "\n\n" "Baca lebih lanjut di " $url "\n" }}
