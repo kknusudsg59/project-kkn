@@ -1,8 +1,8 @@
 ---
 title: Statistik
 date: 2021-07-13T03:38:03.000+07:00
-dewasa: "123"
-remaja: "234"
-anak: "456"
+laki-laki: "123"
+perempuan: "234"
+total: "456"
 
 ---
