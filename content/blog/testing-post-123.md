@@ -2,7 +2,6 @@
 author = "Mr X"
 category = "Pariwisata, Ekonomi"
 date = 2021-07-12T17:00:00Z
-draft = true
 title = "Testing Post Edit"
 
 +++
