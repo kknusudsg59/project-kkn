@@ -1,6 +1,6 @@
 {{ $title := .Title }}
 {{ $imgURL := .Params.image }}
-{{ $url := printf .Title "\n" "%s" .Permalink | absLangURL }}
+{{ $url := printf "%s" .Permalink | absLangURL }}
 {{ $body := print .Title ", by " .Params.author "\n" .Summary "\n\n" "Baca lebih lanjut di " $url "\n" }}
 {{- partial "head.html" . -}}
 {{- partial "section_nav.html" . -}}
