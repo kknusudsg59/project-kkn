@@ -5,7 +5,7 @@ date = 2021-08-04T06:00:00Z
 title = "Objek Wisata Pantai Putra Deli"
 
 +++
-![](/image/20210721_134434.jpg)
+![](/image/20210721_134457.webp)
 
 Pantai Putra Deli adalah salah satu dari tiga objek wisata yang ada di desa Denai Kuala, dan juga salah satu pantai yang terletak di dataran pantai bagian Sumatera Utara Selat Malaka. Pantai Putra Deli dulunya adalah rawa-rawa dan dikelilingi oleh hutan mangrove. Berawal dari kebiasaan penduduk yang berprofesi sebagai nelayan, maka tak jarang mereka bermalam di pantai. Lama kelamaan banyak orang yang mengunjungi kawasan ini dan perlahan mereka menetap di daerah pantai.
 
