@@ -24,7 +24,7 @@ Sarana yang tersedia:
 * Pernak-pernik wisata pantai yang dapat dibeli oleh pengunjung seperti pakaian.
 
 Koordinat Peta Lokasi  
-https://goo.gl/maps/UEFj79vV4V9cL4Ks8
+[https://goo.gl/maps/hskLGe8Xq5ekZFmN8](https://goo.gl/maps/hskLGe8Xq5ekZFmN8 "Temukan di Google Maps")
 
 Catatan:  
 Foto mengenai pantai dapat dilihat pada menu galeri
