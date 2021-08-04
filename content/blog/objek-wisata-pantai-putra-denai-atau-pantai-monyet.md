@@ -5,7 +5,7 @@ date = 2021-08-04T06:00:00Z
 title = "Objek Wisata Pantai Putra Denai"
 
 +++
-![](/image/20210721_142811.jpg)
+![](/image/20210721_142811.webp)
 
 Pantai Putra Denai adalah salah satu dari tiga objek wisata yang ada di desa Denai Kuala, dan juga salah satu pantai yang terletak di dataran pantai bagian Sumatera Utara Selat Malaka. Pantai ini dijuluki sebagai "Pantai Monyet" karena tempatnya yang memang dihuni oleh puluhan hingga ratusan monyet. Satwa primata berekor panjang dan berjenis Macaca fascicularis tersebut yang tidak perlu ditakuti. Meski suka usil, tetapi mereka sudah menjadi ciri khas dari pantai ini.
 
