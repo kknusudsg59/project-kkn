@@ -15,5 +15,6 @@ fields:
   name: date
   label: date
 pages:
+- content/blog/objek-wisata-pantai-muara-indah.md
 - content/blog/test-post-blog-forestry.md
 - content/blog/testing-post-123.md
