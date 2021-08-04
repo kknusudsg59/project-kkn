@@ -17,7 +17,7 @@ Sarana yang tersedia:
 * Pondok-pondok/tempat istrahat pengunjung
 * Kamar Mandi/tempat ganti pakaian
 * Mushola
-* Warung-warung tempat wisatawan belanja makanan dan minuman
+* Warung-warung tempat wisatawan membeli makanan dan minuman
 * Tempat parkir roda dua dan roda empat
 * Tempat karaoke
 * Tempat bermain anak-anak

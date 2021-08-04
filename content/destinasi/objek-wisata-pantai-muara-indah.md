@@ -14,9 +14,9 @@ Jarak dari desa ke pantai lebih kurang 2 km, jarak dari Kecamatan Pantai Labu 5 
 
 Sarana yang tersedia:
 
-* Pondok-pondok/ tempat istrahat pengunjung
+* Pondok-pondok/tempat istrahat pengunjung
 * Kamar Mandi/tempat ganti pakaian
-* Warang-warung tempat wisatawan belanja makanan dan minuman
+* Warung-warung tempat wisatawan membeli makanan dan minuman
 * Tempat parkir roda dua dan roda empat
 
 Koordinat Peta Lokasi  
