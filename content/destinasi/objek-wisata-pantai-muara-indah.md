@@ -2,7 +2,7 @@
 author = "Admin"
 category = "Pariwisata"
 date = 2021-08-03T17:00:00Z
-image = ["/image/20210721_120040.jpg"]
+image = ["/image/20210721_120259.webp"]
 title = "Objek Wisata Pantai Muara Indah"
 
 +++
