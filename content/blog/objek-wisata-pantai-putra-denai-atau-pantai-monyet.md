@@ -2,7 +2,6 @@
 author = "Admin"
 category = "Pariwisata"
 date = 2021-08-04T06:00:00Z
-draft = true
 title = "Objek Wisata Pantai Putra Denai atau \"Pantai Monyet\""
 
 +++
