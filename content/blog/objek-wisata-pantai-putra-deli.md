@@ -1,25 +1,27 @@
 +++
 author = "Admin"
 category = "Pariwisata"
-date = 2021-08-03T17:00:00Z
+date = 2021-08-04T06:00:00Z
 draft = true
 title = "Objek Wisata Pantai Putra Deli"
 
 +++
-![](/image/20210721_120040.jpg)
+![](/image/20210721_134434.jpg)
 
-Pantai Muara Indah adalah salah satu dari tiga objek wisata yang ada di desa Denai Kuala, dan juga salah satu pantai yang terletak di dataran pantai bagian Sumatera Utara Selat Malaka. Dimana dulunya sebelum dijadikan sebagai objek wisata, pantai ini ditumbuhi hutan mangrove. Karena penduduk desa adalah mayoritas nelayan, maka untuk memudahkan akses mencari ikan mereka membersihkan hutan mangrove sehingga lama-kelamaan hutan mangrove pun bersih.
+Pantai Putra Deli adalah salah satu dari tiga objek wisata yang ada di desa Denai Kuala, dan juga salah satu pantai yang terletak di dataran pantai bagian Sumatera Utara Selat Malaka. Pantai Putra Deli dulunya adalah rawa-rawa dan dikelilingi oleh hutan mangrove. Berawal dari kebiasaan penduduk yang berprofesi sebagai nelayan, maka tak jarang mereka bermalam di pantai. Lama kelamaan banyak orang yang mengunjungi kawasan ini dan perlahan mereka menetap di daerah pantai. 
 
-Dengan berkembangnya jaman, dan munculnya industri pariwisata, dan karena pantai ini tempatnya yang strategis, pemandangan yang indah, dan tempatnya tidak terlalu jauh dari kota maka muncul inisiatif-inisiatif penduduk setempat yang biasanya bekerja sebagai nelayan untuk menambah pendapatannya maka mereka mengembangkannya menjadi daerah objek wisata yaitu pada tahun 2004, dan pantai inilah pantai yang pertama kali dijadikan sebagai daerah objek wisata di Kecamatan Pantai Labu. Sesuai dengan namanya Pantai Muara Indah karena pantai ini terletak di daerah muara yaitu Sungai Ular.
-
-Jarak dari desa ke pantai lebih kurang 2 km, jarak dari Kecamatan Pantai Labu 5 km, jarak dari Lubuk Pakam 35 km dan jarak dari Medan lebih kurang 55 Km. Pantai ini memiliki kelebihan dibandingkan pantai-pantai lain sehingga pantai ini lebih dipilih wisatawan untuk tempat istrahat atau rekrasi, karena di pantai ini memiliki pasir putih, tempatnya sejuk karena hutan bakau mangrove dan kekayaan laut seperti sebangsa krang, rumput laut dan lain-lain.
+Dikarenakan pantai memiliki pasir yang putih, maka lahan ini pun berpotensi untuk dijadikan objek wisata. Pada tahun 2006 pantai tersebut kemudian dikelola oleh masyarakat setempat menjadi objek wisata alam yang sangat asri dan indah yang dapat menghipnotis setiap pengunjung yang mengunjunginya. Namanya sendiri diambil dari nama sebuah rombongan nelayan yang umumnya adalah kaum pria dan merupakan putra daerah kawasan tanah deli sehingga pantai ini dinamakan Putra Deli
 
 Sarana yang tersedia:
 
-* Pondok-pondok/ tempat istrahat pengunjung
+* Pondok-pondok/tempat istrahat pengunjung
 * Kamar Mandi/tempat ganti pakaian
-* Warang-warung tempat wisatawan belanja makanan dan minuman
+* Mushola
+* Warung-warung tempat wisatawan belanja makanan dan minuman
 * Tempat parkir roda dua dan roda empat
+* Tempat karaoke
+* Tempat bermain anak-anak
+* Pernak-pernik wisata pantai yang dapat dibeli oleh pengunjung seperti pakaian.
 
 Koordinat Peta Lokasi  
 https://goo.gl/maps/UEFj79vV4V9cL4Ks8
