@@ -2,7 +2,6 @@
 author = "Admin"
 category = "Pariwisata"
 date = 2021-08-03T17:00:00Z
-draft = true
 image = ["/image/20210721_134434.jpg"]
 title = "Objek Wisata Pantai Putra Deli"
 
@@ -26,6 +25,14 @@ Sarana yang tersedia:
 
 Koordinat Peta Lokasi  
 [https://goo.gl/maps/hskLGe8Xq5ekZFmN8](https://goo.gl/maps/hskLGe8Xq5ekZFmN8 "Temukan di Google Maps")
+
+Tarif:
+
+* Tiket masuk roda dua Rp10000
+* Tiket masuk roda empat Rp35000
+* Biaya parkir roda dua Rp5000
+* Biaya parkir roda empat Rp10000
+* Penyewaan pondok Rp35000-Rp60000
 
 Catatan:  
 Foto mengenai pantai dapat dilihat pada menu galeri
