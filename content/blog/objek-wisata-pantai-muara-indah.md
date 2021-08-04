@@ -2,7 +2,6 @@
 author = "Admin"
 category = "Pariwisata"
 date = 2021-08-03T17:00:00Z
-draft = true
 title = "Objek Wisata Pantai Muara Indah"
 
 +++
@@ -18,7 +17,7 @@ Sarana yang tersedia:
 
 * Pondok-pondok/ tempat istrahat pengunjung
 * Kamar Mandi/tempat ganti pakaian
-* Warang-warung tempat wisatawan belanja makanan dan minuman
+* Warung-warung tempat wisatawan membeli makanan dan minuman
 * Tempat parkir roda dua dan roda empat
 
 Koordinat Peta Lokasi  
