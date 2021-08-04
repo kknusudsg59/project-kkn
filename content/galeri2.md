@@ -1,14 +1,14 @@
 +++
-author = "John Doe"
-category = "Galeri Slider"
+author = "Admin"
+category = "Galeri Slider 2"
 date = 2021-07-12T17:00:00Z
-description = "Galeri Section 2"
-slide1 = "/image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"
-slide1_desc = "Desc 1"
-slide2 = "/image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"
-slide2_desc = "Desc 2"
-slide3 = "/image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg"
-slide3_desc = "Desc 3"
-title = "galeri2"
+description = ""
+slide1 = "/image/20210721_154150.jpg"
+slide1_desc = ""
+slide2 = "/image/20210721_143135.jpg"
+slide2_desc = ""
+slide3 = "/image/20210721_142911.jpg"
+slide3_desc = ""
+title = "Galeri Slider Bagian Kedua"
 
 +++
